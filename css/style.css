@@ -114,6 +114,11 @@ ul li {
 
 /*-----------------------*/
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
 
 
 /*---------------------
@@ -356,6 +361,10 @@ body.lock {
 
 /*--------------------*/
 
+/* Hero Area Section */
+
 .hero-area {
 	margin-top: 120px;
+	height: 100%;
+	flex: 1 1 auto;
 }
