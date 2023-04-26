@@ -474,7 +474,11 @@ body.lock {
 
 .copyright__links {
 	display: flex;
-	gap: 60px;
+	column-gap: 60px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .copyright__link {
@@ -491,5 +495,23 @@ body.lock {
 .copyright__link:hover {
 	color: #F9AD81;
 }
+
+@media (max-width: 1020px) {
+
+	.footer__container,
+	.copyright__container {
+		max-width: 720px;
+	}
+
+	.footer__row {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.footer__newslatter-form button {
+		flex: 0 1 170px;
+	}
+}
+
 
 /*--------------*/
