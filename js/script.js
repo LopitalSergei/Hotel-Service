@@ -33,3 +33,12 @@ window.addEventListener('resize', function (event) {
 
 
 /*------------*/
+
+// Hero Action
+
+const bg = document.getElementsByClassName("set-bg")[0];
+bg.style.backgroundImage = 'url(' + bg.dataset.setbg + ')';
+// bg.style.backgroundPosition = "center";
+
+/*-------------*/
+
